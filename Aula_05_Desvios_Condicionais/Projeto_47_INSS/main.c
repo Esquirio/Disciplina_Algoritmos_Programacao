@@ -21,7 +21,7 @@ int main()
     desconto = salario * 0.30; //Desconto 30%
   }//Fim do else
   //Imprime resultados
-  printf("\nDesconto do INSS: %.2f \n", desconto);
+  printf("\nDesconto do INSS: R$ %.2f \n", desconto);
   return 0;
 }//Fim da funcao
 
