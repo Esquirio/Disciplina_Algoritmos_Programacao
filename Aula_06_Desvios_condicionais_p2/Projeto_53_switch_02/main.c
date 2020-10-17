@@ -29,8 +29,8 @@ int main()
     erro = 1;
     break;
   }//Fim do switch
-  if(!erro)
-    printf("\nResultado de %.2f %c %.2f eh %.2f \n\n", n1, sinal, n2, resultado);
+
+  printf("\nResultado de %f %c %f eh %f \n\n", n1, sinal, n2, resultado);
 
   return 0;
 }//Fim da função main()
