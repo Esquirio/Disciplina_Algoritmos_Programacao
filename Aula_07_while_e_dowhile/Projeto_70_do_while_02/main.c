@@ -2,7 +2,7 @@
 /* Funcão: main() */
 int main()
 {
-  float nota; //Declara variaveis
+  float nota = 0.0; //Declara variaveis
   do
   {
     printf("Digite uma nota: \n");
