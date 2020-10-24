@@ -1,4 +1,5 @@
 #include <stdio.h>  //Funções de I/O, etc.
+#include <stdlib.h>
 /* Funcão: main() */
 int main()
 {

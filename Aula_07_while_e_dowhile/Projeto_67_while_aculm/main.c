@@ -14,7 +14,7 @@ int main()
     cont = cont + 1; //incrementa o contador
   }
   media = acmNotas / cont; //Calcula a média das 5 notas
-  printf("A média é : %.2f \n", media);
+  printf("A media eh : %.2f \n", media);
   return 0;
 }//Fim da funcao main()
 

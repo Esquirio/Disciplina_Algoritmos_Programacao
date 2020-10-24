@@ -8,7 +8,7 @@ int main()
 
   while(resp == 's')
   {
-    printf("Digite um número: \n");
+    printf("Digite um numero: \n");
     scanf("%i", &num);
 
     acmNum = acmNum + num;	 //acumlador de num
@@ -16,6 +16,7 @@ int main()
     printf("Deseja continuar? (s/n): \n");
     scanf(" %c", &resp); //Modifica a variável de controle
   }//Fim do while(resp == 's')
+  printf("Soma acumulada: %d \n", acmNum);
   return 0; //Retorna valor inteiro
 }//Fim da funcao main()
 
