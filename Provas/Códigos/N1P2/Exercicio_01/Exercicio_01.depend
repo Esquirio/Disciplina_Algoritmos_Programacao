@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1603825381 source:c:\users\bigode\onedrive\documents\anhembi\ap\2020-2\prova\n1p2\exercicio_01\main.c
+	<stdio.h>
+	<stdbool.h>
+	<math.h>
+
