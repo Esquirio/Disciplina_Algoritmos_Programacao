@@ -1,25 +1,24 @@
 #include <stdio.h>  // Funções de I/O, etc.
 /* Funcão: main() */
-int main(){
-  char oper; // Declara variavel char
+int main() {
+  char oper;  // Declara variavel char
   printf("Digite um sinal de operacao: ");
   scanf(" %c", &oper);
   // Testa sinal da operacao
-  if(oper == '+'){
+  if (oper == '+') {
     printf("Sinal de adicao!\n");
-  }// Fim do if(oper == '+')
-  else if(oper == '-'){
+  }  // Fim do if(oper == '+')
+  else if (oper == '-') {
     printf("Sinal de subtracao!\n");
-  }// Fim do else if(oper == '-')
-  else if(oper == '*'){
+  }  // Fim do else if(oper == '-')
+  else if (oper == '*') {
     printf("Sinal de multiplicacao!\n");
-  }// Fim do else if(oper == '*')
-  else if(oper == '/'){
+  }  // Fim do else if(oper == '*')
+  else if (oper == '/') {
     printf("Sinal de divisao!\n");
-  }// Fim do else if(oper == '/')
-  else{
+  }  // Fim do else if(oper == '/')
+  else {
     printf("Sinal nao previsto!\n");
-  }// Fim do else
+  }  // Fim do else
   return 0;
-}// Fim da função main()
-
+}  // Fim da função main()

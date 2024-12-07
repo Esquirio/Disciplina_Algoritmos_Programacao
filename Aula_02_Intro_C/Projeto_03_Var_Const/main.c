@@ -1,9 +1,9 @@
 /* ---------------------
  INTRODUÇÃO LINGUAGEM C
 ------------------------ */
-#include <stdio.h> // Funções de I/O
+#include <stdio.h>  // Funções de I/O
 /* Função main() inicia o programa */
-int main(){
+int main() {
   // Declaração das variáveis
   const float KM = 53.5;
   int valor = 10;
@@ -14,5 +14,4 @@ int main(){
   printf("Eh o %c da questao! \n", letra);
   printf("Minha nota foi %d! \n", valor);
   return 0;
-}// Fim da função main()
-
+}  // Fim da função main()

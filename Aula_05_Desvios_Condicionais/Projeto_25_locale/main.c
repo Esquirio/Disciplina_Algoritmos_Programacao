@@ -1,9 +1,8 @@
-#include <stdio.h> // Necessário funções de I/O
-#include <locale.h> // Idioma PT-BR
+#include <locale.h>  // Idioma PT-BR
+#include <stdio.h>   // Necessário funções de I/O
 /* Funcão: main() */
-int main()
-{
-  float valor; // Declaração de um float
+int main() {
+  float valor;  // Declaração de um float
   // Antes da formatação do de idioma
   printf("Digite valor real com ponto decimal: ");
   scanf("%f", &valor);
@@ -14,5 +13,4 @@ int main()
   scanf("%f", &valor);
   printf("Apresentacao do valor reais: %.2f \n\n", valor);
   return 0;
-}// Fim da função main()
-
+}  // Fim da função main()

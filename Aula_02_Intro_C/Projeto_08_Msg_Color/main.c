@@ -1,11 +1,10 @@
 /* ---------------------
  INTRODUÇÃO LINGUAGEM C
 ------------------------ */
-#include <stdio.h> // Funções de I/O
-#include <windows.h> // API para Windows
+#include <stdio.h>    // Funções de I/O
+#include <windows.h>  // API para Windows
 /* Função main() inicia o programa */
-int main()
-{
+int main() {
   // Função SetConsoleTextAttribute para configurar a cor do console
   // A color é definida por um número de 0 a 255
   SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
@@ -14,6 +13,5 @@ int main()
   SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 14);
   // Mensagem escrita de amarelo
   printf("I want to be nice today!\n");
-  return 0; // Retorna um valor inteiro
-}// Fim da função main()
-
+  return 0;  // Retorna um valor inteiro
+}  // Fim da função main()

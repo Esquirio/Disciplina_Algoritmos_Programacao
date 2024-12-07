@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdbool.h>
 #include <math.h>
+#include <stdbool.h>
+#include <stdio.h>
 
 int main() {
   // Apresentacao do grupo
@@ -28,8 +28,8 @@ int main() {
     scanf("%d", &opcao_escolhida);
 
     // Decidir o que fazer para cada item do menu
-    switch(opcao_escolhida){
-      case 1: // Simular disparo
+    switch (opcao_escolhida) {
+      case 1:  // Simular disparo
         printf("\n");
         // Entrada de dados
         do {
@@ -50,7 +50,7 @@ int main() {
         } while (tamanho < 20 || tamanho > 50);
 
         // Calcular valores a partir da entrada de dados
-        alpha_rad = alpha * pi/180;
+        alpha_rad = alpha * pi / 180;
         v_zero_quad = v_zero * v_zero;
         alcance = 2 * v_zero_quad * cos(alpha_rad) * sin(alpha_rad) / g;
         tempo_trajeto = 2 * v_zero * sin(alpha_rad);
@@ -62,24 +62,24 @@ int main() {
         printf("\n\tAltura maxima: %.2f", altura);
 
         // Mostrar ao usuario e gravar no vetor se o disparo foi bem sucedido
-        if( alcance < distancia ) {
+        if (alcance < distancia) {
           printf("\n\tO disparo caiu antes do alvo");
-        } else if ( alcance < distancia + tamanho){
+        } else if (alcance < distancia + tamanho) {
           printf("\n\tO disparo acertou o alvo!");
         } else {
           printf("\n\tO disparo caiu depois do alvo");
         }
-      break;
-      case 2: // Sair
+        break;
+      case 2:  // Sair
         // Apenas mostrar mensagem de adeus
         // O do/while é quem realmente cuida da parte de encerrar
         printf("\nThat's all folks!\n");
-      break;
-      default: // Invalida
+        break;
+      default:  // Invalida
         // Apenas mostrar que esta errado
         printf("\n\tOpcao invalida!");
-      break;
+        break;
     }
-  // Repete o menu, saindo apenas quando o usuario digitar 4
+    // Repete o menu, saindo apenas quando o usuario digitar 4
   } while (opcao_escolhida != 2);
 }

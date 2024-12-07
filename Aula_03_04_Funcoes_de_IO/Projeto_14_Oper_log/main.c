@@ -1,10 +1,9 @@
 /* ---------------------
  INTRODUÇÃO LINGUAGEM C
 ------------------------ */
-#include <stdio.h> // Funções de I/O
+#include <stdio.h>  // Funções de I/O
 /* Função main() inicia o programa */
-int main()
-{
+int main() {
   int a = 1, b = 0, c = 10;
   printf("Op. AND(%d && %d?): %d \n", a, b, a && b);
   printf("Op. AND(%d && %d?): %d \n\n", a, c, a && c);
@@ -15,5 +14,4 @@ int main()
   printf("Op. NOT(!%d?): %d \n", a, !a);
   printf("Op. NOT(!%d?): %d \n\n", b, !b);
   return 0;
-}// Fim da função main()
-
+}  // Fim da função main()
